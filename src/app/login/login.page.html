@@ -5,15 +5,11 @@
 </ion-header>
 
 <ion-content>
+  <div class="content">
   <ion-title class="ion-text-capitalize"></ion-title>
-  <figure class="text-center">
-    <img alt="login"
-     src="assets/image/2blogin.jpg" />
-
-  
-  </figure>
+ 
   <form [formGroup]="loginForm" (ngSubmit)="loginUser(loginForm.value)">
-    
+   
     <ion-item>
       <ion-input
         type="email"
@@ -60,11 +56,12 @@
         </ion-label>
       </ng-container>
     </div>
-  
+    
     
     <ion-button type="submit" >Login</ion-button>
   </form>
   
-  <ion-button  fill="clear" routerLink="/register" style="color: rgb(255, 255, 255);">register</ion-button>
+</div> 
+  <ion-button  fill="clear" routerLink="/register" style="color: rgb(255, 255, 255);">registro</ion-button>
   <p>{{errorMessage}}</p>
 </ion-content>

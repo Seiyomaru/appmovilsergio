@@ -11,9 +11,6 @@
 
 
 <ion-content>
-  <figure class="image-container">
-    <img src="assets/image/uzu.png" alt="Logo de la aplicación" />
-  </figure>
 
 
   
@@ -37,11 +34,11 @@
         label="Apellido"
         labelPlacement="floating"
         placeholder="Ingrese su apellido"
-        formControlName="lastname"
+        formControlName="last_name"
       ></ion-input>
     </ion-item>
-    <ion-label class="error-message" *ngIf="registerForm.get('lastname')?.invalid && registerForm.get('lastname')?.dirty">
-      {{ formErrors.lastname }}
+    <ion-label class="error-message" *ngIf="registerForm.get('last_name')?.invalid && registerForm.get('last_name')?.dirty">
+      {{ formErrors.last_name }}
     </ion-label>
 
     <!-- Campo Correo -->
