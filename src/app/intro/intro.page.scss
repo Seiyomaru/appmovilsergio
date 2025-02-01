@@ -1,0 +1,46 @@
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  display: block; /* Se elimina el centrado */
+  background: linear-gradient(to right, #0e0e0e, #3a3a3a); /* Fondo negro-gris oscuro */
+  color: #d1d1d1; /* Texto gris claro */
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(255, 255, 255, 0.1); /* Sombra metálica */
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.title2 {
+  color: #bbbbbb; /* Gris plateado */
+  text-align: left; /* Alineación natural */
+  font-family: "Roboto", sans-serif;
+  font-weight: bold;
+}
+
+.title1 {
+  color: #a0a0a0; /* Gris futurista */
+  font-family: "Roboto", sans-serif;
+  text-transform: uppercase;
+}
+
+.bg-color-slide {
+  background: linear-gradient(to right, #1a1a1a, #4a4a4a); /* Gris oscuro con efecto metálico */
+}
+
+.close-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  font-size: 35px;
+  color: #ffffff; /* Icono blanco */
+  cursor: pointer;
+  transition: color 0.3s ease, transform 0.3s ease;
+}
+
+.close-icon:hover {
+  color: #888888; /* Cambio a gris metálico al pasar el mouse */
+  transform: scale(1.1);
+}

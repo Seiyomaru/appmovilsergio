@@ -1,0 +1,98 @@
+ion-header {
+  background: linear-gradient(to right, #1a1a1a, #3d3d3d);
+}
+
+ion-content {
+  --background: linear-gradient(to right, #1a1a1a, #3d3d3d) !important;
+}
+
+ion-toolbar {
+  --background: transparent;
+  --color: #e0e0e0;
+  font-family: "Orbitron", sans-serif;
+}
+
+ion-title {
+  background: linear-gradient(to right, #ffffff, #bdbdbd);
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+  font-weight: bold;
+  font-size: 1.6em;
+  text-transform: uppercase;
+  font-family: "Orbitron", sans-serif;
+}
+
+ion-searchbar {
+  --background: rgba(255, 255, 255, 0.2);
+  --color: #ffffff;
+  --placeholder-color: #cccccc;
+  --border-radius: 10px;
+}
+
+ion-list {
+  background: transparent;
+}
+
+ion-item {
+  --background: rgba(255, 255, 255, 0.1);
+  --color: #ffffff;
+  --padding-start: 0;
+  --inner-padding-end: 0;
+  border-radius: 10px;
+  margin: 5px;
+}
+
+ion-input {
+  --color: #ffffff;
+  --placeholder-color: #cccccc;
+  --padding-start: 16px;
+  --padding-end: 16px;
+  --background: rgba(255, 255, 255, 0.1);
+  border-radius: 8px;
+}
+
+.error-message {
+  color: red;
+  font-size: 0.8em;
+  margin-left: 16px;
+}
+
+ion-button {
+  --background: #ffffff;
+  --color: #000000;
+  --border-radius: 8px;
+  margin-top: 20px;
+}
+
+ion-button[expand="block"] {
+  --background: transparent;
+  --color: #ffffff;
+  --border-color: #ffffff;
+  --border-width: 1px;
+  --border-style: solid;
+}
+
+.container {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.fluid {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 50vw;
+  max-width: 300px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+ion-footer {
+  background: transparent;
+  padding: 10px;
+}
